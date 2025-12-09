@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Dark Mode */
+
+.darkContainer{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.darkHeading{
+    position: absolute;
+    top: 150px;
+    font-size: 40px;
+    color: white;
+}
+.darkPara{
+    margin-bottom: 70px;
+    font-size: 25px;
+    color: rgb(165, 165, 165);
+}
+.darkIcon{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Light Mode */
+
+.lightContainer{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.lightHeading{
+    position: absolute;
+    top: 150px;
+    font-size: 40px;
+    color: black;
+}
+.lightPara{
+    margin-bottom: 70px;
+    font-size: 25px;
+    color: rgb(70, 70, 70);
+}
+.lightIcon{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
